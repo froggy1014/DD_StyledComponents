@@ -1,8 +1,13 @@
+import Card from './components/Card'
+import Globalstyles from './global-styles';
 
 function App() {
   return (
-    <h1>styled componenet</h1>    
-  );
+    <div style={{ padding: '2rem' }}>
+      <Globalstyles/>    
+      <Card/>
+    </div>
+  )
 }
 
 export default App;

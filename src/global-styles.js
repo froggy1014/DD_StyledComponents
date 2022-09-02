@@ -1,4 +1,7 @@
-:root {
+import { createGlobalStyle } from "styled-components";
+
+const Globalstyles = createGlobalStyle`
+  :root {
   --primary : rgb(59, 59, 188);
   --mainBorder: 1px solid red; 
   --white: #fff;
@@ -13,19 +16,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background : #f2f4f8;
 }
-.title{
-  text-align: center;
-  text-transform: capitalize;
-}
+`
 
-.btn {
-  background: rgb(59, 59, 188);
-  color: white;
-  border: none;
-  border-radius: 0.25rem;
-  text-transform: capitalize;
-  padding: 0.25rem;
-  display: block;
-  width: 200px;
-  margin: 1rem auto;
-}
+export default Globalstyles
