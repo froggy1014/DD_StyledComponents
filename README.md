@@ -1,2 +1,3 @@
 # DD_StyledComponents
-DeepDive to StyledComponents
+
+Quick short Styled Components study Repo with John Smilga
